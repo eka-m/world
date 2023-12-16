@@ -7,7 +7,7 @@ It can be consumed with the World Facade or the defined Api routes.
 ### Installation
 
 ```
-composer require nnjeim/world
+composer require eka/world
 
 php artisan vendor:publish --tag=world
 
@@ -42,7 +42,7 @@ https://laravel-world.com/api/states?filters[country_code]=RO&fields=cities
 Use the World facade  
 
 ``` 
-use Nnjeim\World\World;
+use eka\World\World;
 
 $action =  World::countries();
 
@@ -79,7 +79,7 @@ https://myDomain.local/api/countries
 Use the World facade  
 
 ``` 
-use Nnjeim\World\World;
+use eka\World\World;
 
 $action =  World::countries([
 	'fields' => 'states,cities',
@@ -137,7 +137,7 @@ https://myDomain.local/api/countries?fields=states,cities&filters[iso2]=FR
 #### List all the cities by country id.
 
 ``` 
-use Nnjeim\World\WorldHelper;
+use eka\World\WorldHelper;
 
 protected $world;
 
