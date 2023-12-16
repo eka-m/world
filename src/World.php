@@ -1,6 +1,6 @@
 <?php
 
-namespace Nnjeim\World;
+namespace Eka\World;
 
 use Illuminate\Support\Facades\Facade;
 

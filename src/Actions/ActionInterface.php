@@ -1,6 +1,6 @@
 <?php
 
-namespace Nnjeim\World\Actions;
+namespace Eka\World\Actions;
 
 interface ActionInterface
 {

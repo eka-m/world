@@ -1,9 +1,9 @@
 <?php
 
-namespace Nnjeim\World\Actions\Language\Queries;
+namespace Eka\World\Actions\Language\Queries;
 
 use Illuminate\Database\Eloquent\Collection;
-use Nnjeim\World\Models\Language;
+use Eka\World\Models\Language;
 
 class IndexQuery
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Nnjeim\World\Models\Traits;
+namespace Eka\World\Models\Traits;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Nnjeim\World\Models;
+use Eka\World\Models;
 
 trait StateRelations
 {

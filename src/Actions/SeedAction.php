@@ -1,12 +1,12 @@
 <?php
 
-namespace Nnjeim\World\Actions;
+namespace Eka\World\Actions;
 
 use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
-use Nnjeim\World\Models;
+use Eka\World\Models;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Schema;
 

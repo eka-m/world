@@ -1,8 +1,8 @@
 <?php
 
-namespace Nnjeim\World\Models;
+namespace Eka\World\Models;
 
-use Nnjeim\World\Models\Traits\StateRelations;
+use Eka\World\Models\Traits\StateRelations;
 
 use Illuminate\Database\Eloquent\Model;
 

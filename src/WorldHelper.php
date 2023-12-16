@@ -1,6 +1,6 @@
 <?php
 
-namespace Nnjeim\World;
+namespace Eka\World;
 
 use Exception;
 
@@ -8,27 +8,27 @@ class WorldHelper
 {
 	private array $availableActions = [
 		'countries' => [
-			'actionBasePath' => 'Nnjeim\\World\\Actions\\Country',
+			'actionBasePath' => 'Eka\\World\\Actions\\Country',
 			'action' => 'index',
 		],
 		'states' => [
-			'actionBasePath' => 'Nnjeim\\World\\Actions\\State',
+			'actionBasePath' => 'Eka\\World\\Actions\\State',
 			'action' => 'index',
 		],
 		'cities' => [
-			'actionBasePath' => 'Nnjeim\\World\\Actions\\City',
+			'actionBasePath' => 'Eka\\World\\Actions\\City',
 			'action' => 'index',
 		],
 		'timezones' => [
-			'actionBasePath' => 'Nnjeim\\World\\Actions\\Timezone',
+			'actionBasePath' => 'Eka\\World\\Actions\\Timezone',
 			'action' => 'index',
 		],
 		'currencies' => [
-			'actionBasePath' => 'Nnjeim\\World\\Actions\\Currency',
+			'actionBasePath' => 'Eka\\World\\Actions\\Currency',
 			'action' => 'index',
 		],
 		'languages' => [
-			'actionBasePath' => 'Nnjeim\\World\\Actions\\Language',
+			'actionBasePath' => 'Eka\\World\\Actions\\Language',
 			'action' => 'index',
 		],
 	];

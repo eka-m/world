@@ -1,9 +1,9 @@
 <?php
 
-namespace Nnjeim\World\Actions\Country\Queries;
+namespace Eka\World\Actions\Country\Queries;
 
 use Illuminate\Database\Eloquent\Collection;
-use Nnjeim\World\Models\Country;
+use Eka\World\Models\Country;
 
 class IndexQuery
 {

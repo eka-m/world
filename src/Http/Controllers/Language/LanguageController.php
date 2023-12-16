@@ -1,12 +1,12 @@
 <?php
 
-namespace Nnjeim\World\Http\Controllers\Language;
+namespace Eka\World\Http\Controllers\Language;
 
-use Nnjeim\World\Http\Controllers\BaseController;
+use Eka\World\Http\Controllers\BaseController;
 
 class LanguageController extends BaseController
 {
-	protected string $requestBasePath = 'Nnjeim\\World\\Http\\Requests\\Language';
+	protected string $requestBasePath = 'Eka\\World\\Http\\Requests\\Language';
 
-	protected string $actionBasePath = 'Nnjeim\\World\\Actions\\Language';
+	protected string $actionBasePath = 'Eka\\World\\Actions\\Language';
 }

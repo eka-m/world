@@ -1,14 +1,14 @@
 <?php
 
-namespace Nnjeim\World\Tests\Unit;
+namespace Eka\World\Tests\Unit;
 
-use Nnjeim\World\Actions\City;
-use Nnjeim\World\Actions\Country;
-use Nnjeim\World\Actions\Currency;
-use Nnjeim\World\Actions\State;
-use Nnjeim\World\Actions\Timezone;
-use Nnjeim\World\Actions\Language;
-use Nnjeim\World\Tests\TestCase;
+use Eka\World\Actions\City;
+use Eka\World\Actions\Country;
+use Eka\World\Actions\Currency;
+use Eka\World\Actions\State;
+use Eka\World\Actions\Timezone;
+use Eka\World\Actions\Language;
+use Eka\World\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Response;
 
 class CountryTest extends TestCase

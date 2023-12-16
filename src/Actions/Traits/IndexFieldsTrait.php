@@ -1,6 +1,6 @@
 <?php
 
-namespace Nnjeim\World\Actions\Traits;
+namespace Eka\World\Actions\Traits;
 
 trait IndexFieldsTrait
 {

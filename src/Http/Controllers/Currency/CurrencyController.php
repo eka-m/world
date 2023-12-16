@@ -1,12 +1,12 @@
 <?php
 
-namespace Nnjeim\World\Http\Controllers\Currency;
+namespace Eka\World\Http\Controllers\Currency;
 
-use Nnjeim\World\Http\Controllers\BaseController;
+use Eka\World\Http\Controllers\BaseController;
 
 class CurrencyController extends BaseController
 {
-	protected string $requestBasePath = 'Nnjeim\\World\\Http\\Requests\\Currency';
+	protected string $requestBasePath = 'Eka\\World\\Http\\Requests\\Currency';
 
-	protected string $actionBasePath = 'Nnjeim\\World\\Actions\\Currency';
+	protected string $actionBasePath = 'Eka\\World\\Actions\\Currency';
 }

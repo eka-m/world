@@ -1,8 +1,8 @@
 <?php
 
-namespace Nnjeim\World\Http\Requests\City;
+namespace Eka\World\Http\Requests\City;
 
-use Nnjeim\World\Http\Requests\BaseRequest;
+use Eka\World\Http\Requests\BaseRequest;
 
 class IndexRequest extends BaseRequest
 {

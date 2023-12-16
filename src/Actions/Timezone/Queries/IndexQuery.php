@@ -1,9 +1,9 @@
 <?php
 
-namespace Nnjeim\World\Actions\Timezone\Queries;
+namespace Eka\World\Actions\Timezone\Queries;
 
 use Illuminate\Database\Eloquent\Collection;
-use Nnjeim\World\Models\Timezone;
+use Eka\World\Models\Timezone;
 
 class IndexQuery
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nnjeim\World\Tests;
+namespace Eka\World\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables;

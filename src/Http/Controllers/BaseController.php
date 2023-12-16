@@ -1,15 +1,15 @@
 <?php
 
-namespace Nnjeim\World\Http\Controllers;
+namespace Eka\World\Http\Controllers;
 
-use Nnjeim\World\Http\Response\ResponseBuilder;
+use Eka\World\Http\Response\ResponseBuilder;
 use Illuminate\Http\JsonResponse;
 
 class BaseController
 {
-	protected string $requestBasePath = 'Nnjeim\\World\\Http\\Requests';
+	protected string $requestBasePath = 'Eka\\World\\Http\\Requests';
 
-	protected string $actionBasePath = 'Nnjeim\\World\\Actions';
+	protected string $actionBasePath = 'Eka\\World\\Actions';
 
 	/**
 	 * @param $function

@@ -1,13 +1,13 @@
 <?php
 
-namespace Nnjeim\World\Actions\Timezone;
+namespace Eka\World\Actions\Timezone;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
-use Nnjeim\World\Actions\ActionInterface;
-use Nnjeim\World\Actions\BaseAction;
-use Nnjeim\World\Actions\Timezone\Queries\IndexQuery;
-use Nnjeim\World\Actions\Timezone\Transformers\IndexTransformer;
+use Eka\World\Actions\ActionInterface;
+use Eka\World\Actions\BaseAction;
+use Eka\World\Actions\Timezone\Queries\IndexQuery;
+use Eka\World\Actions\Timezone\Transformers\IndexTransformer;
 
 class IndexAction extends BaseAction implements ActionInterface
 {

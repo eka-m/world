@@ -1,10 +1,10 @@
 <?php
 
-namespace Nnjeim\World;
+namespace Eka\World;
 
 use Illuminate\Support\ServiceProvider;
-use Nnjeim\World\Commands;
-use Nnjeim\World\WorldHelper;
+use Eka\World\Commands;
+use Eka\World\WorldHelper;
 
 class WorldServiceProvider extends ServiceProvider
 {

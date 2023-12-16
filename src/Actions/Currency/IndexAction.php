@@ -1,13 +1,13 @@
 <?php
 
-namespace Nnjeim\World\Actions\Currency;
+namespace Eka\World\Actions\Currency;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
-use Nnjeim\World\Actions\ActionInterface;
-use Nnjeim\World\Actions\BaseAction;
-use Nnjeim\World\Actions\Currency\Queries\IndexQuery;
-use Nnjeim\World\Actions\Currency\Transformers\IndexTransformer;
+use Eka\World\Actions\ActionInterface;
+use Eka\World\Actions\BaseAction;
+use Eka\World\Actions\Currency\Queries\IndexQuery;
+use Eka\World\Actions\Currency\Transformers\IndexTransformer;
 
 class IndexAction extends BaseAction implements ActionInterface
 {

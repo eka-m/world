@@ -1,13 +1,13 @@
 <?php
 
-namespace Nnjeim\World\Actions\City;
+namespace Eka\World\Actions\City;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
-use Nnjeim\World\Actions\ActionInterface;
-use Nnjeim\World\Actions\BaseAction;
-use Nnjeim\World\Actions\City\Queries\IndexQuery;
-use Nnjeim\World\Actions\City\Transformers\IndexTransformer;
+use Eka\World\Actions\ActionInterface;
+use Eka\World\Actions\BaseAction;
+use Eka\World\Actions\City\Queries\IndexQuery;
+use Eka\World\Actions\City\Transformers\IndexTransformer;
 
 class IndexAction extends BaseAction implements ActionInterface
 {

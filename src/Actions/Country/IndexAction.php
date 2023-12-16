@@ -1,13 +1,13 @@
 <?php
 
-namespace Nnjeim\World\Actions\Country;
+namespace Eka\World\Actions\Country;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
-use Nnjeim\World\Actions\ActionInterface;
-use Nnjeim\World\Actions\BaseAction;
-use Nnjeim\World\Actions\Country\Queries\IndexQuery;
-use Nnjeim\World\Actions\Country\Transformers\IndexTransformer;
+use Eka\World\Actions\ActionInterface;
+use Eka\World\Actions\BaseAction;
+use Eka\World\Actions\Country\Queries\IndexQuery;
+use Eka\World\Actions\Country\Transformers\IndexTransformer;
 
 class IndexAction extends BaseAction implements ActionInterface
 {

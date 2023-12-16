@@ -1,10 +1,10 @@
 <?php
 
-namespace Nnjeim\World\Actions;
+namespace Eka\World\Actions;
 
 use Illuminate\Support\Collection;
-use Nnjeim\World\Actions\Traits\IndexFieldsTrait;
-use Nnjeim\World\Http\Response\ResponseBuilder;
+use Eka\World\Actions\Traits\IndexFieldsTrait;
+use Eka\World\Http\Response\ResponseBuilder;
 
 class BaseAction
 {

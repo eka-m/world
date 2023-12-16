@@ -1,12 +1,12 @@
 <?php
 
-namespace Nnjeim\World\Http\Controllers\State;
+namespace Eka\World\Http\Controllers\State;
 
-use Nnjeim\World\Http\Controllers\BaseController;
+use Eka\World\Http\Controllers\BaseController;
 
 class StateController extends BaseController
 {
-	protected string $requestBasePath = 'Nnjeim\\World\\Http\\Requests\\State';
+	protected string $requestBasePath = 'Eka\\World\\Http\\Requests\\State';
 
-	protected string $actionBasePath = 'Nnjeim\\World\\Actions\\State';
+	protected string $actionBasePath = 'Eka\\World\\Actions\\State';
 }

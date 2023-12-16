@@ -1,8 +1,8 @@
 <?php
 
-namespace Nnjeim\World\Models\Traits;
+namespace Eka\World\Models\Traits;
 
-use Nnjeim\World\Models;
+use Eka\World\Models;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 

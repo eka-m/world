@@ -1,9 +1,9 @@
 <?php
 
-namespace Nnjeim\World\Actions\City\Queries;
+namespace Eka\World\Actions\City\Queries;
 
 use Illuminate\Database\Eloquent\Collection;
-use Nnjeim\World\Models\City;
+use Eka\World\Models\City;
 
 class IndexQuery
 {

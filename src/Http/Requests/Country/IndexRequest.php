@@ -1,8 +1,8 @@
 <?php
 
-namespace Nnjeim\World\Http\Requests\Country;
+namespace Eka\World\Http\Requests\Country;
 
-use Nnjeim\World\Http\Requests\BaseRequest;
+use Eka\World\Http\Requests\BaseRequest;
 
 class IndexRequest extends BaseRequest
 {

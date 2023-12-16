@@ -1,8 +1,8 @@
 <?php
 
-namespace Nnjeim\World\Models;
+namespace Eka\World\Models;
 
-use Nnjeim\World\Models\Traits\TimezoneRelations;
+use Eka\World\Models\Traits\TimezoneRelations;
 
 use Illuminate\Database\Eloquent\Model;
 

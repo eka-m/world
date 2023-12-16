@@ -1,8 +1,8 @@
 <?php
 
-namespace Nnjeim\World\Http\Requests\Language;
+namespace Eka\World\Http\Requests\Language;
 
-use Nnjeim\World\Http\Requests\BaseRequest;
+use Eka\World\Http\Requests\BaseRequest;
 
 class IndexRequest extends BaseRequest
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nnjeim\World\Http\Middleware;
+namespace Eka\World\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Closure;

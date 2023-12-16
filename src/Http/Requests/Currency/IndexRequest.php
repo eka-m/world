@@ -1,8 +1,8 @@
 <?php
 
-namespace Nnjeim\World\Http\Requests\Currency;
+namespace Eka\World\Http\Requests\Currency;
 
-use Nnjeim\World\Http\Requests\BaseRequest;
+use Eka\World\Http\Requests\BaseRequest;
 
 class IndexRequest extends BaseRequest
 {

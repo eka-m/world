@@ -1,6 +1,6 @@
 <?php
 
-namespace Nnjeim\World\Http\Response;
+namespace Eka\World\Http\Response;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Collection;
