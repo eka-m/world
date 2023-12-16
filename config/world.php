@@ -26,6 +26,7 @@ return [
 	*/
 	'accepted_locales' => [
 		'ar',
+		'az',
 		'bn',
 		'br',
 		'de',
