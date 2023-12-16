@@ -1,6 +1,6 @@
 {
-    "name": "nnjeim/world",
-    "description": "Laravel countries, states, cities and currencies",
+    "name": "eka/world",
+    "description": "Laravel countries, states, cities and currencies. Fork from nnjeim/world",
     "keywords": [
         "laravel",
         "lumen",
@@ -10,13 +10,13 @@
         "timezones",
         "currencies"
     ],
-    "homepage": "https://github.com/nnjeim/world.git",
+    "homepage": "https://github.com/eka/world.git",
     "license": "MIT",
     "type": "laravel-package",
     "authors": [
         {
-            "name": "Najm Njeim",
-            "email": "najm@njeim.net",
+            "name": "Eka",
+            "email": "memmedkerimov@gmail.com",
             "role": "Developer"
         }
     ],
@@ -29,13 +29,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Nnjeim\\World\\": "src/",
-            "Nnjeim\\World\\Database\\Seeders\\": "src/Database/Seeders/"
+            "Eka\\World\\": "src/",
+            "Eka\\World\\Database\\Seeders\\": "src/Database/Seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nnjeim\\World\\Tests\\": "tests/"
+            "Eka\\World\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nnjeim\\World\\WorldServiceProvider"
+                "Eka\\World\\WorldServiceProvider"
             ],
             "aliases": {
-                "Country": "Nnjeim\\World\\World"
+                "Country": "Eka\\World\\World"
             }
         }
     },
